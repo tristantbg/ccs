@@ -1,0 +1,21 @@
+title: Event
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  featured:
+    label: Image
+    type: image
+  date:
+    type: date
+  subtitle:
+    label: Subtitle
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  tags:
+    label: Tags
+    type: tags

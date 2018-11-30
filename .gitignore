@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+package-lock.json
+yarn.lock
+yarn-error.log
+www/content/*
+/lib
+src/fonts/*
+www/assets/build
+/node_modules
+/npm-debug.log
+www/site/accounts
+www/site/cache
+www/site/config/cloudinary.php
+www/site/config/license.php
+www/assets/avatars
+www/thumbs/*

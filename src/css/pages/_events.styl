@@ -1,0 +1,121 @@
+// #events
+// 	position fixed
+// 	top 3rem
+// 	right 0
+// 	height calc(100vh - 3rem)
+// 	display flex
+// 	flex-direction column
+// 	justify-content space-between
+// 	align-content flex-end
+// 	width 4.4rem
+// 	.event
+// 		width 100%
+// 		cursor pointer
+// 		display flex
+// 		flex 1
+// 		align-self flex-end
+// 		flex-direction column
+// 		justify-content center
+// 		border-top 1px solid
+// 		border-bottom 1px solid
+// 		&:first-child
+// 			border-top 0
+// 		&:last-child
+// 			border-bottom 0
+// 		&:hover
+// 			border 0
+// 		.message
+// 			display none
+// 			p
+// 				display flex
+// 		&+ .event
+// 			border-top 0px solid
+// 		&> div
+// 			display flex
+// 			height 1em
+// 			white-space nowrap
+// 		.date
+// 			margin-right 1em
+
+// #hero
+// 	position absolute
+// 	top 3rem
+// 	left 0
+// 	width 100%
+// 	height calc(100vh - 3rem)
+// 	background $gray
+// 	transition width 250ms ease
+// 	.hero
+// 		align()
+// 		height 70vh
+// 		width 70vh
+// 		background-size cover
+// 		background-position center
+// 		&:not(.active)
+// 			display none
+// 		.bottom
+// 			position absolute
+// 			bottom 0
+// 			left 0
+// 			width 100%
+// 			display flex
+// 			& > div
+// 				display flex
+// 				&:last-child
+// 					flex 1
+// 					display flex
+// 					justify-content flex-end
+// 				& > div
+// 					margin-right 1px
+// 					& > div:last-child
+// 						flex 1
+// 						margin-right 0
+// 		.tags
+// 			div:first-child
+// 				text-transform uppercase
+
+// .tag
+// 	background $opacify
+// 	padding 0.3em 2em
+// 	&.accent
+// 		background red
+// 		text-transform uppercase
+// 		padding 0.3em 1em
+
+// body:not(.events)
+// 	#events
+// 		.event
+// 			border 0
+// 			&.active
+// 				width 100vw
+// 				border 0
+// 				pointer-events none
+// 			&:hover, &.active
+// 				background $opacify
+// 				.title
+// 					display none
+// 				.message
+// 					display flex
+// 					animation marquee 20s infinite linear
+// 			.title .title
+// 				display none
+
+// .events
+// 	#hero
+// 		width 50%
+// 	#events
+// 		width 100%
+// 		.event
+// 			width 50vw
+// 			&.select
+// 				width 100%
+// 				border-top 1px solid
+// 				border-bottom 1px solid
+// 			&:hover, &.select
+// 				width 100%
+// 				background $opacify
+// 				.title
+// 					display none
+// 				.message
+// 					display flex
+// 					animation marquee 20s infinite linear
